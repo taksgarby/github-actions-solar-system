@@ -41,7 +41,7 @@ jobs:
     deploy:
       runs-on: ubuntu-latest
       environment:
-        name: staging
+        name: development
         url: ${{ steps.deploy.outputs.url }}
       steps:
         - name: Deploy to staging
