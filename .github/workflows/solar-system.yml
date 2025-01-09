@@ -128,6 +128,7 @@ jobs:
             context: .
             push: true
             tags: ${{ vars.DOCKERHUB_USERNAME }}/solar-system:${{ github.sha }}
+            
   
 
 
